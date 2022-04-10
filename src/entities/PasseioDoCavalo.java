@@ -22,6 +22,13 @@ public class PasseioDoCavalo {
 		horizontal[6] = 1; vertical[6] = 2;
 		horizontal[7] = 2; vertical[7] = 1;
 		
+		for(int i = 0; i < t; i++) {
+			for(int j = 0; j < t; j++) {
+				tabuleiro[i][j] = 0;
+				tabuleiro[0][0] = 1;
+			}
+		}
+		
 	}
 
 }
