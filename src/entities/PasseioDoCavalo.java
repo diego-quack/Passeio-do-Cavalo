@@ -74,7 +74,7 @@ public class PasseioDoCavalo {
 	public void imprime() {
 		for(int i = 0; i < t; i++) {
 			for(int j = 0; j < t; j++) {
-				System.out.println("\t" + this.tabuleiro[i][j]);
+				System.out.print("\t" + this.tabuleiro[i][j]);
 			}
 			System.out.println();
 		}
